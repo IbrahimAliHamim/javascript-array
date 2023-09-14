@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Find</title>
+</head>
+<body>
+
+    <h1>JavaScript Arrays</h1>
+    <h2>Find Method</h2>
+
+    <p>
+        <input type="number" name="" id="ageToCheck">
+    </p>
+
+    <button onclick="myButton()">Check the next senior</button>
+
+    <p id="demo"></p>
+
+    <script>
+        const ages = [10, 14, 16, 18, 20];
+
+        function checkAge(age){
+            return age > document.getElementById("ageToCheck").value;
+        }
+
+        function myButton(){
+            document.getElementById("demo").innerHTML = ages.find(checkAge);
+        }
+        
+    </script>
+    
+</body>
+</html>
