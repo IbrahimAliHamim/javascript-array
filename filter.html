@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Filter</title>
+</head>
+<body>
+
+    <h1>JavaScript Arrays</h1>
+    <h2>Filter Method</h2>
+
+    <p id="filter"></p>
+
+    <script>
+        const ages = [15, 16, 18, 20, 33];
+        document.getElementById("filter").innerHTML = ages.filter(checkAdults);
+
+        function checkAdults(age){
+            return age <= 30;
+        }
+    </script>
+
+<!-- 
+        <h1>JavaScript Arrays</h1>
+        <h2>The filter() Method</h2>
+
+        <p>Get every element in the array that has a value of 18 or more:</p>
+
+        <p id="demo"></p>
+
+        <script>
+            const ages = [32, 33, 16, 40];
+
+            document.getElementById("demo").innerHTML = ages.filter(checkAdult);
+
+            function checkAdult(age) {
+            return age >= 18;
+            }
+        </script>
+
+</body>
+</html>
+    
+</body>
+</html>
