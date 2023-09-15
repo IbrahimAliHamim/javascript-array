@@ -14,13 +14,13 @@
 
 // ---------2____
 
-var messMates = ["Tushar", "Jahid", "Sourav", "Morsalin", "Shahjahan", "Arman", "Almin", "Srabon", "Sohel", "Mosaddek"];
+// var messMates = ["Tushar", "Jahid", "Sourav", "Morsalin", "Shahjahan", "Arman", "Almin", "Srabon", "Sohel", "Mosaddek"];
 
-Array.prototype.myUcase = function(){
-    for(let i = 0; i < this.length; i++){
-        this[i] = this[i].toUpperCase();
-    }
-}
+// Array.prototype.myUcase = function(){
+//     for(let i = 0; i < this.length; i++){
+//         this[i] = this[i].toUpperCase();
+//     }
+// }
 
-messMates.myUcase();
-console.log(messMates);
+// messMates.myUcase();
+// console.log(messMates);
