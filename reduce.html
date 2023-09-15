@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Reduce</title>
+</head>
+<body>
+
+    <h1>Javascript Array</h1>
+    <h2>Reduce Method</h2>
+    <p id="demo"></p>
+
+    <script>
+
+        // ______1____
+        
+        // const numbr = [170, 50, 25];
+
+        // document.getElementById("demo").innerHTML = numbr.reduce(myfunc);
+
+        // function myfunc(total, num){
+        //     return(total - num);
+        // }
+
+        // _____2_____
+
+        const numbr = [10, 2, 3];
+        document.getElementById("demo").innerHTML = numbr.reduce(myfunc);
+
+        function myfunc(total, num){
+            return(total-num);
+        }
+
+
+    </script>
+    
+</body>
+</html>
